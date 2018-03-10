@@ -1,0 +1,33 @@
+
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, input, form, a, p, textarea {
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; /*英文网站通用样式*/
+}
+
+ol, ul, li {
+    list-style: none; /*去掉列表项前面的点*/
+}
+
+a {
+    text-decoration: none; /*去除链接里的下划线*/
+    display: block; /*把链接标签转为块元素*/
+    color: #ffffff;
+}
+
+img {
+    border: none; /*去除边框*/
+    display: block;
+}
+
+.clearfloat {
+    zoom: 1;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: ".";
+    visibility: hidden;
+    height: 0;
+}
