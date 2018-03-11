@@ -1,14 +1,14 @@
-.mapboard {
+#mapboard {
     position: relative;
-    width: 330px;
-    height: 303px;
+    width: 100px;
+    height: 100px;
     margin: 20px auto;
     /*border: 1px solid #000000;*/
 }
 
 .box {
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 30px;
+    height: 30px;
     border: 1px solid #000000;
 }
