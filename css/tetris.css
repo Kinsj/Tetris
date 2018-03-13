@@ -10,5 +10,18 @@
     float: left;
     width: 30px;
     height: 30px;
+    font-size: 9px;
+    border: 1px solid #000000;
+}
+
+.gametype {
+    width: 100px;
+    height: 30px;
+    line-height: 30px;  /*实现上下居中*/
+    margin: 0 auto;
+    padding: auto;
+    text-align: center;
+    background: #5d5d5d;
+    color: #ffffff;
     border: 1px solid #000000;
 }
