@@ -25,3 +25,13 @@
     color: #ffffff;
     border: 1px solid #000000;
 }
+
+.gameover {
+    width: 300px;
+    height: 60px;
+    line-height: 60px;
+    margin: 0 auto;
+    font-size: 20px;
+    text-align: center;
+    color: red;
+}
